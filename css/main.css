@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.rel {
+  position: relative;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 60px;
+  background-color: aquamarine;
+}
+
+nav .wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+nav .wrapper .navi-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+  border: none;
+}
+
+nav .wrapper form .text-search {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  font-size: 40px;
+  max-width: 300px;
+}
+
+nav .wrapper form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  font-size: 50px;
+}
+
+main {
+  padding: 10px;
+}
+/*# sourceMappingURL=main.css.map */
