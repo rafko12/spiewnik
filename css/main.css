@@ -20,7 +20,7 @@ nav {
   position: sticky;
   top: 0;
   height: 60px;
-  background-color: aquamarine;
+  background-color: #e0e0e0;
 }
 
 nav .wrapper {
@@ -33,27 +33,40 @@ nav .wrapper .navi-btn {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 50px;
+  padding: 5px;
+  font-size: 40px;
   border: none;
+  background-color: #e0e0e0;
 }
 
 nav .wrapper form .text-search {
   position: absolute;
-  top: 0;
-  right: 50px;
-  font-size: 40px;
+  top: 15px;
+  right: 55px;
   max-width: 300px;
+  font-size: 25px;
+  border: none;
+  border-radius: 3px;
 }
 
 nav .wrapper form button {
   position: absolute;
   top: 0;
   right: 0;
+  padding: 5px;
+  font-size: 40px;
   border: none;
-  font-size: 50px;
+  background-color: #e0e0e0;
 }
 
 main {
-  padding: 10px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+main iframe {
+  width: 100%;
+  height: 100vh;
+  border: none;
 }
 /*# sourceMappingURL=main.css.map */
