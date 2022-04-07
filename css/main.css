@@ -74,21 +74,18 @@ main iframe {
 @media (max-width: 300px) {
   .text-search {
     max-width: 180px;
-    background-color: green;
   }
 }
 
 @media (min-width: 300px) and (max-width: 350px) {
   .text-search {
     max-width: 200px;
-    background-color: yellow;
   }
 }
 
 @media (min-width: 351px) and (max-width: 415px) {
   .text-search {
     max-width: 250px;
-    background-color: red;
   }
 }
 /*# sourceMappingURL=main.css.map */
